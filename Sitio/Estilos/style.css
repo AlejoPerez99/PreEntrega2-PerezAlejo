@@ -1,0 +1,351 @@
+* {
+
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+
+}
+
+.logohead {
+    padding: 10px;
+    position: fixed;
+    height: 100px;
+    width: 100px;
+}
+
+.logohead_paginas {
+    height: 100px;
+    width: 100px;
+}
+
+h3 {
+    color: black;
+    font-family: 'Orbitron', sans-serif;
+
+}
+
+h4 {
+    color: white;
+
+    font-family: 'Orbitron', sans-serif;
+    font-size: 50px;
+    text-align: center;
+    text-decoration: overline;
+    background-position: center;
+}
+
+a {
+
+    text-decoration: none;
+}
+
+.parrafo1 {
+    color: white;
+    text-align: center;
+    font-size: 28px;
+    text-decoration: overline;
+    background-color: black;
+    width: 1500px;
+    height: 200px;
+    padding-top: 50px;
+
+
+
+}
+
+.titulo {
+    font-family: 'Orbitron', sans-serif;
+    color: white;
+    font-size: 120px;
+    background-image: url(./multimedia/imagenes/banner\ quesos.jpg);
+
+}
+
+
+.titulo {
+    border-style: solid;
+    color: white;
+    background-position: center;
+
+
+}
+
+
+.sub_titulo {
+    font-size: 30px;
+    text-align: center;
+    text-decoration: overline;
+    background-color: black;
+
+}
+
+.titulo_secciones {
+    font-size: 40px;
+    text-align: center;
+    color: white;
+    border-style: solid;
+    color: white;
+    width: 1500px;
+    margin-left: 10px;
+}
+
+
+
+.navbarra {
+    font-size: 30px;
+    color: white;
+    padding: 5px;
+    margin: 50px;
+    margin-left: 110px;
+    height: 20px;
+    display: inline-block;
+}
+
+h1 {
+    text-align: center;
+}
+
+body {
+    background-color: black
+}
+
+.img {
+    padding: 10px;
+    margin-left: 490px;
+    height: 400px;
+    width: 500px;
+
+}
+
+
+
+.piedepag {
+    color: white;
+    padding: 10px;
+    font-size: 20px;
+
+}
+
+
+.logopiedepag {
+    padding: 10px;
+    margin: 10px;
+    height: 150px;
+    width: 150px;
+}
+
+.mapadegoogle {
+    padding: 10px;
+    margin-left: 1000px;
+    margin-bottom: 200px;
+}
+
+/*  seccion bebidas  */
+
+
+#titulobebidas h1 {
+    font-size: 100px;
+    font-family: 'Orbitron', sans-serif;
+    background-color: white;
+
+
+
+}
+
+#volver_al_inicio_bebidas a {
+    color: white;
+    font-family: 'Orbitron', sans-serif;
+    border-style: solid;
+    color: white;
+}
+
+#sub_titulo_vinos h1 {
+    color: white;
+    padding: 20px;
+
+}
+
+.imagen_vinos {
+    background-position: center;
+
+}
+
+#imagenvinos img {
+    margin-left: 450px;
+    margin-top: 100px;
+    margin-top: 20px;
+}
+
+#vinos_blancos h1 {
+    color: white;
+
+    padding: 50xp;
+    margin-top: 150px;
+
+}
+
+#img_vinos_blancos img {
+    padding-bottom: 50xpS;
+    margin-top: 20px;
+}
+
+#titulo_licores h1 {
+    color: white;
+    padding: 150xp;
+    /* margin-bottom: 200px; */
+    margin-top: 200px;
+}
+
+/* seccion contacto  */
+
+#titulo_de_contacto h1 {
+    font-size: 100px;
+    font-family: 'Orbitron', sans-serif;
+    background-color: white;
+}
+
+#volver_al_inicio_contacto a {
+    color: white;
+    font-family: 'Orbitron', sans-serif;
+    border-style: solid;
+    color: white;
+
+}
+
+#formulario li {
+    margin-left: 500px;
+
+}
+
+#img_licores img {
+    margin-top: 20px;
+}
+
+/* seccion de sandwiches  */
+
+
+
+#volver a {
+    color: white;
+    font-family: 'Orbitron', sans-serif;
+    border-style: solid;
+    color: white;
+}
+
+#titulo_sandwiches {
+    font-size: 50px;
+    font-family: 'Orbitron', sans-serif;
+    background-color: white;
+}
+
+#sub_titulo_sandwiches {
+    color: white;
+    padding: 20px;
+}
+
+
+
+#titulo_img_uno h1 {
+    font-size: 30px;
+    text-align: center;
+    text-decoration: overline;
+    background-color: black;
+    color: white;
+    font-family: 'Orbitron', sans-serif;
+}
+
+#titulo_img_dos h1 {
+    font-size: 30px;
+    text-align: center;
+    text-decoration: overline;
+    background-color: black;
+    color: white;
+    font-family: 'Orbitron', sans-serif;
+}
+
+#titulo_img_tres h1 {
+    font-size: 30px;
+    text-align: center;
+    text-decoration: overline;
+    background-color: black;
+    color: white;
+    font-family: 'Orbitron', sans-serif;
+
+}
+
+
+/* seccion de picadas */
+
+
+#volver_picadas a {
+    color: white;
+    font-family: 'Orbitron', sans-serif;
+    border-style: solid;
+    color: white;
+}
+
+#titulo_picadas h1 {
+    font-size: 50px;
+    font-family: 'Orbitron', sans-serif;
+    background-color: white;
+}
+
+#sub_titulo_picadas h1 {
+    color: white;
+    padding: 20px;
+}
+
+#sub_t_picada_quesos h1 {
+    font-size: 30px;
+    text-align: center;
+    text-decoration: overline;
+    background-color: black;
+    color: white;
+    font-family: 'Orbitron', sans-serif;
+}
+
+#sub_t_picada_ocho h1 {
+    font-size: 30px;
+    text-align: center;
+    text-decoration: overline;
+    background-color: black;
+    color: white;
+    font-family: 'Orbitron', sans-serif;
+}
+
+#sub_t_picada_doce h1 {
+    font-size: 30px;
+    text-align: center;
+    text-decoration: overline;
+    background-color: black;
+    color: white;
+    font-family: 'Orbitron', sans-serif;
+}
+
+
+
+/* tamaño imagenes  */
+
+section.imagenes img {
+    margin-left: 450px;
+    margin-top: 100px;
+    margin-top: 20px;
+    width: 700px;
+    height: 300px;
+}
+
+section.imagenes_picadas img{
+    margin-left: 450px;
+    margin-top: 100px;
+    margin-top: 20px;
+    width: 700px;
+    height: 300px;
+}
+
+section.imagenes_vinos img{
+    margin-left: 450px;
+    margin-top: 100px;
+    margin-top: 20px;
+    width: 700px;
+    height: 300px;
+}
