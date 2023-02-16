@@ -27,111 +27,100 @@
 
 <body>
     <div id="grilla">
-        <div>
+        <nav >
 
-
-
-
-            <div class="flex-container">
-                <!-- img del logo -->
-                <img class="logohead" src="./multimedia/imagenes/220603322_194148176375886_1061838362719334626_n.jpg"
-                    alt="logo quesos">
-            </div>
-
-            <div>
-                <nav>
-
-
-                    <a class="navbarra" href="./paginas/picadas.html">picadas</a>
-                    <a class="navbarra" href="./paginas/sandwiches.html">sandwiches</a>
-                    <a class="navbarra" href="./paginas/bebidas.html">bebidas</a>
-                    <!-- secciones de la derecha  -->
-                    <a class="navbarra" href="paginas/contacto.html">contacto</a></li>
-                    <a class="navbarra" id=#ubicacion href="#ubicacion">ubicacion</a>
-                </nav>
-            </div>
-
-
-
-
-            <header class="border">
-
-                <div class="titulo">
-
-                    <!-- titulo -->
-                    <h1 class="display-1">que sos?</h1>
-                    <!-- sub titulo -->
-                    <h4>tienda de comestibes</h4>
+            <nav class="navbar navbar-expand-lg bg-body-tertiary">
+                <div class="container-fluid">
+                    <nav class="navbar bg-body-tertiary">
+                        <div class="container">
+                          <a class="navbar-brand" href="#">
+                            <img src="./multimedia/imagenes/220603322_194148176375886_1061838362719334626_n.jpg" alt="logo quesos" width="80" height="80">
+                          </a>
+                        </div>
+                      </nav>
+                    <a class="navbar-brand" href="./paginas/picadas.html">Picadas</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                        aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                        <div class="navbar-nav">
+                            <a class="nav-link active" aria-current="page"
+                                href="./paginas/sandwiches.html">Sandwiches</a>
+                            <a class="nav-link" href="./paginas/bebidas.html">Bebidas</a>
+                            <a class="nav-link" href="paginas/contacto.html">Contacto</a>
+                            <a class="nav-link" id=#ubicacion href="#ubicacion">ubicacion</a>
+                        </div>
+                    </div>
                 </div>
+            </nav>
 
-                <!-- parrafo -->
-                <p class="parrafo1">Quesos-Fiambres-Sandwiches-Vinos y Aperitivos-Tablas de picada-Cervezas- y
-                    muchos
-                    productos mas...</p>
-                <!--aca iria imaguen gigante-->
+        </nav>
 
-            </header>
-        </div>
+        <header >
 
+            <div class="titulo">
 
-
-
-        <div class="container-fluid text-center">
-            <h3 class="titulo_secciones">combos</h3>
-            <div class="img-fluid">
-                <img class="img" src="./multimedia/imagenes/combos.jpg" alt="img combos">
-
-                <h3 class="titulo_secciones">fiambres y quesos</h3>
-
-                <img class="img" src="./multimedia/imagenes/fiambres y quesos.jpg" alt="img quesos" srcset="">
-
-                <h3 class="titulo_secciones">almacen</h3>
-
-                <img class="img" src="./multimedia/imagenes/almacen.jpg" alt="img almacen">
+                <!-- titulo -->
+                <h1 class="display-1">que sos?</h1>
+                <!-- sub titulo -->
+                <h4>tienda de comestibes</h4>
             </div>
-        </div>
 
+            <!-- parrafo -->
+            <p class="parrafo1">Quesos-Fiambres-Sandwiches-Vinos y Aperitivos-Tablas de picada-Cervezas- y
+                muchos
+                productos mas...</p>
+            <!--aca iria imaguen gigante-->
+
+        </header>
+
+        <section id="productos" class="container-fluid text-center">
+
+            <h3 class="titulo_secciones">combos</h3>
+            <img src="./multimedia/imagenes/combos.jpg"  alt="img combos" class="img-fluid d-block mx-auto" height="400px" width="500px"> 
+
+            <h3 class="titulo_secciones">fiambres y quesos</h3>
+            <img src="./multimedia/imagenes/fiambres y quesos.jpg" class="img-fluid d-block mx-auto" alt="img quesos">
+
+            <h3 class="titulo_secciones">almacen</h3>
+            <img src="./multimedia/imagenes/almacen.jpg" class="img-fluid d-block mx-auto" alt="img almacen">
 
 
         </section>
 
+        <footer>
+            <section class="flex-container">
 
+                <!--Flex-items-->
 
-
-
-
-        <footer class="border">
-
-            <nav id="enlaces:internos_footer">
-                <!-- enlace interno inicio -->
-                <ul>
-                    <li><a class="piedepag" href="#inicio">inicio</a></li>
-                    <li><a class="piedepag" href="paginas/picadas.html">picadas</a></li>
-                    <li> <a class="piedepag" href="paginas/sandwiches.html">sandwiches</a></li>
-                    <li><a class="piedepag" href="paginas/bebidas.html">bebidas</a></li>
-                    <li> <a class="piedepag" href="paginas/contacto.html">contacto</a></li>
-                </ul>
-            </nav>
-
-
-            <!-- enlace interno con ubicacion -->
-
-            <div class="col-md-4 ">
-                <div class="row">
-
-                    <iframe class="mapadegoogle" id="ubicacion "
-                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3284.883048191266!2d-58.44527418488616!3d-34.5818256804652!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb5ec58b099c9%3A0x7aedec4c609dcb8f!2sJos%C3%A9%20A.%20Cabrera%206085%2C%20C1414BHM%20CABA!5e0!3m2!1ses!2sar!4v1674250285697!5m2!1ses!2sar"
-                        width="300" height="300" style="border:0;" allowfullscreen="" loading="lazy"
-                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <div class="caja c1">
+                    <nav id="enlaces:internos_footer">
+                        <!-- enlace interno inicio -->
+                        <ul>
+                            <li><a class="piedepag" href="#inicio">inicio</a></li>
+                            <li><a class="piedepag" href="paginas/picadas.html">picadas</a></li>
+                            <li> <a class="piedepag" href="paginas/sandwiches.html">sandwiches</a></li>
+                            <li><a class="piedepag" href="paginas/bebidas.html">bebidas</a></li>
+                            <li> <a class="piedepag" href="paginas/contacto.html">contacto</a></li>
+                        </ul>
+                    </nav>
                 </div>
-            </div>
 
+                <div class="caja c2">
 
+                </div>
 
+                <div class="caja c3">
+                    <div class="media">
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3284.883048191266!2d-58.44527418488616!3d-34.5818256804652!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb5ec58b099c9%3A0x7aedec4c609dcb8f!2sJos%C3%A9%20A.%20Cabrera%206085%2C%20C1414BHM%20CABA!5e0!3m2!1ses!2sar!4v1674250285697!5m2!1ses!2sar"
+                            frameborder="0"></iframe>
+                    </div>
+                </div>
 
-            <!-- volveria a aparecer el logo -->
-            <img class="logopiedepag" src="./multimedia/imagenes/220603322_194148176375886_1061838362719334626_n.jpg"
-                alt="logo de pie de paguina">
+            </section>
 
         </footer>
     </div>
