@@ -1,0 +1,447 @@
+/*variables*/
+$color-secundario: black;
+$color-principal: white;
+$tipo-de-fuente: "Orbitron", sans-serif;
+/*operacion*/
+$tamaño-fuente: 200px;
+$tamaño-padding: 10px;
+$tamaño-heigth: 100px;
+$tamaño-width: 100px;
+
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+.logohead {
+  padding: $tamaño-padding;
+  position: fixed;
+  height: $tamaño-heigth;
+  width: $tamaño-width;
+}
+
+.logohead_paginas {
+  height: $tamaño-heigth;
+  width: $tamaño-width;
+}
+
+h3 {
+  color: $color-secundario;
+  font-family: $tipo-de-fuente;
+}
+
+h4 {
+  color: $color-principal;
+  font-family: $tipo-de-fuente;
+  font-size: $tamaño-fuente/4;
+  text-align: center;
+  text-decoration: overline;
+  background-position: center;
+  margin: 50px;
+  margin-bottom: 15px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.parrafo1 {
+  color: $color-principal;
+  text-align: center;
+  font-size: $tamaño-fuente/7;
+  text-decoration: overline;
+  background-color: $color-secundario;
+}
+
+.titulo {
+  font-family: $tipo-de-fuente;
+  color: $color-principal;
+  font-size: $tamaño-fuente;
+  background-image: url(../multimedia/imagenes/banner\ quesos.jpg);
+}
+
+.titulo {
+  border-style: solid;
+  color: $color-principal;
+  background-position: center;
+}
+
+.sub_titulo {
+  font-size: $tamaño-fuente/7;
+  text-align: center;
+  text-decoration: overline;
+  background-color: $color-secundario;
+}
+
+.titulo_secciones {
+  font-size: $tamaño-fuente/5;
+  text-align: center;
+  color: $color-principal;
+  border-style: solid;
+  color: $color-principal;
+  width: 100%;
+  margin-left: 10px;
+  height: auto;
+}
+
+.navbarra:hover {
+  color: gray;
+  width: 90% auto;
+}
+
+h1 {
+  text-align: center;
+  color: $color-principal;
+}
+
+body {
+  background-color: $color-secundario;
+}
+
+.img {
+  padding: $tamaño-padding;
+  margin-left: 70px;
+  height: $tamaño-heigth * 4;
+  width: $tamaño-width * 8;
+}
+
+.piedepag {
+  color: $color-principal;
+  padding: $tamaño-padding;
+  font-size: $tamaño-fuente/9;
+}
+
+.logopiedepag {
+  padding: $tamaño-padding;
+  margin: 10px;
+  height: $tamaño-heigth + 50;
+  width: $tamaño-width + 50;
+}
+
+/*  seccion bebidas  */
+#titulobebidas h1 {
+  font-size: $tamaño-fuente/2;
+  font-family: $tipo-de-fuente;
+  background-color: $color-principal;
+}
+
+#volver_al_inicio_bebidas a {
+  color: $color-principal;
+  font-family: $tipo-de-fuente;
+  border-style: solid;
+  color: $color-principal;
+}
+
+#sub_titulo_vinos h1 {
+  color: $color-principal;
+  padding: $tamaño-padding * 2;
+}
+
+.imagen_vinos {
+  background-position: center;
+}
+
+#imagenvinos img {
+  margin-left: 450px;
+  margin-top: 100px;
+  margin-top: 20px;
+}
+
+#vinos_blancos h1 {
+  color: $color-principal;
+  padding: $tamaño-padding * 5;
+  margin-top: 150px;
+}
+
+#img_vinos_blancos img {
+  padding-bottom: 50xpS;
+  margin-top: 20px;
+}
+
+#titulo_licores h1 {
+  color: $color-principal;
+  padding: $tamaño-padding * 15;
+  /* margin-bottom: 200px; */
+  margin-top: 200px;
+}
+
+/* seccion contacto  */
+#titulo_de_contacto h1 {
+  font-size: $tamaño-fuente/2;
+  font-family: $tipo-de-fuente;
+  background-color: $color-principal;
+}
+
+#volver_al_inicio_contacto a {
+  color: $color-principal;
+  font-family: $tipo-de-fuente;
+  border-style: solid;
+  color: $color-principal;
+}
+
+#formulario li {
+  margin-left: 500px;
+}
+
+#img_licores img {
+  margin-top: 20px;
+}
+
+/* seccion de sandwiches  */
+#volver a {
+  color: $color-principal;
+  font-family: $tipo-de-fuente;
+  border-style: solid;
+  color: $color-principal;
+}
+
+#titulo_sandwiches {
+  font-size: $tamaño-fuente/4;
+  font-family: $tipo-de-fuente;
+  background-color: $color-secundario;
+}
+
+#sub_titulo_sandwiches {
+  color: $color-principal;
+  padding: $tamaño-padding * 2;
+}
+
+#titulo_img_uno h1 {
+  font-size: $tamaño-fuente/6;
+  text-align: center;
+  text-decoration: overline;
+  background-color: $color-secundario;
+  color: $color-principal;
+  font-family: $tipo-de-fuente;
+}
+
+#titulo_img_dos h1 {
+  font-size: $tamaño-fuente/6;
+  text-align: center;
+  text-decoration: overline;
+  background-color: $color-secundario;
+  color: $color-principal;
+  font-family: $tipo-de-fuente;
+}
+
+#titulo_img_tres h1 {
+  font-size: $tamaño-fuente/6;
+  text-align: center;
+  text-decoration: overline;
+  background-color: $color-secundario;
+  color: $color-principal;
+  font-family: $tipo-de-fuente;
+}
+
+/* seccion de picadas */
+#img_1 {
+  padding: $tamaño-padding;
+  margin-left: 70px;
+  height: $tamaño-heigth;
+  width: $tamaño-width;
+}
+
+#img_2 {
+  padding: $tamaño-padding;
+  margin-left: 70px;
+  height: $tamaño-heigth * 4;
+  width: $tamaño-width * 8;
+}
+
+#img_3 {
+  padding: $tamaño-padding;
+  margin-left: 70px;
+  height: $tamaño-heigth * 4;
+  width: $tamaño-width * 8;
+}
+
+#volver_picadas a {
+  color: $color-principal;
+  font-family: $tipo-de-fuente;
+  border-style: solid;
+  color: $color-principal;
+}
+
+#titulo_picadas h1 {
+  font-size: $tamaño-fuente/4;
+  font-family: $tipo-de-fuente;
+  background-color: $color-principal;
+}
+
+#sub_titulo_picadas h1 {
+  color: $color-principal;
+  padding: $tamaño-padding * 2;
+}
+
+#sub_t_picada_quesos h1 {
+  font-size: $tamaño-fuente/6;
+  text-align: center;
+  text-decoration: overline;
+  background-color: $color-secundario;
+  color: $color-principal;
+  font-family: $tipo-de-fuente;
+}
+
+#sub_t_picada_ocho h1 {
+  font-size: $tamaño-fuente/6;
+  text-align: center;
+  text-decoration: overline;
+  background-color: $color-secundario;
+  color: $color-principal;
+  font-family: $tipo-de-fuente;
+}
+
+#sub_t_picada_doce h1 {
+  font-size: $tamaño-fuente/6;
+  text-align: center;
+  text-decoration: overline;
+  background-color: $color-secundario;
+  color: $color-principal;
+  font-family: $tipo-de-fuente;
+}
+
+/* tamaño imagenes  */
+section.imagenes img {
+  margin-left: 450px;
+  margin-top: 100px;
+  margin-top: 20px;
+  width: $tamaño-width * 7;
+  height: $tamaño-heigth * 3;
+}
+
+section.imagenes_picadas img {
+  margin-left: 450px;
+  margin-top: 100px;
+  margin-top: 20px;
+  width: $tamaño-width * 7;
+  height: $tamaño-heigth * 3;
+}
+
+section.imagenes_vinos img {
+  margin-left: 450px;
+  margin-top: 100px;
+  margin-top: 20px;
+  width: $tamaño-width * 7;
+  height: $tamaño-heigth * 3;
+}
+
+/* grid areas */
+#grilla {
+  display: grid;
+  grid-template-areas: "nav nav " "header header" "productos productos" "footer footer";
+  grid-template-rows: 150px auto auto 300px;
+  grid-template-columns: 1000px 500px;
+}
+
+header {
+  grid-area: header;
+}
+
+footer {
+  grid-area: footer;
+}
+
+section#productos {
+  grid-area: productos;
+}
+
+nav {
+  grid-area: nav;
+}
+
+/* mediaqueries */
+@media (min-width: 576px) and (max-width: 767.98px) {
+  #grilla {
+    display: grid;
+    grid-template-areas: "nav        nav   " "header     header " "productos  productos " "footer     footer ";
+    grid-template-rows: 150px 1fr auto 100px;
+    grid-template-columns: 300px 300px;
+  }
+  header {
+    grid-area: header;
+  }
+  footer {
+    grid-area: footer;
+  }
+  section#productos {
+    grid-area: productos;
+  }
+  nav {
+    grid-area: nav;
+  }
+}
+
+section#productos.container-fluid.text-center {
+  grid-area: productos;
+
+  h3{
+    color: $color-secundario;
+    font-family: $tipo-de-fuente;
+
+    &.titulo_secciones{
+        font-size: $tamaño-fuente/5;
+        text-align: center;
+        color: $color-principal;
+        border-style: solid;
+        width: 100%;
+        margin-left: 10px;
+        height: auto;
+    }
+
+}
+
+
+
+
+  img{
+    padding: $tamaño-padding;
+    margin-left: 70px;
+    height: $tamaño-heigth * 4;
+    width: $tamaño-width * 8;
+  }
+}
+
+header {
+    div.titulo {
+        font-family: $tipo-de-fuente;
+        color: $color-principal;
+        font-size: $tamaño-fuente;
+        background-image: url(../multimedia/imagenes/banner\ quesos.jpg);
+
+
+
+
+        h1{
+            text-align: center;
+            color: $color-principal;
+
+        }
+
+        h4{
+            color: $color-principal;
+            font-family: $tipo-de-fuente;
+            font-size: $tamaño-fuente/4;
+            text-align: center;
+            text-decoration: overline;
+            background-position: center;
+            margin: 50px;
+            margin-bottom: 15px;
+        }
+
+
+
+        p.parrafo1 {
+            color: $color-principal;
+            text-align: center;
+            font-size: $tamaño-fuente/7;
+            text-decoration: overline;
+            background-color: $color-secundario;
+        }
+    }
+}
+
+            
+
+                
+               
