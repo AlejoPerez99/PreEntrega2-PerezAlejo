@@ -1,7 +1,8 @@
 /*variables*/
 $color-secundario: black;
 $color-principal: white;
-$tipo-de-fuente: "Orbitron", sans-serif;
+$tipo-de-fuente: "Orbitron",
+sans-serif;
 /*operacion*/
 $tamaño-fuente: 200px;
 $tamaño-padding: 10px;
@@ -26,46 +27,13 @@ $tamaño-width: 100px;
   width: $tamaño-width;
 }
 
-h3 {
-  color: $color-secundario;
-  font-family: $tipo-de-fuente;
-}
-
-h4 {
-  color: $color-principal;
-  font-family: $tipo-de-fuente;
-  font-size: $tamaño-fuente/4;
-  text-align: center;
-  text-decoration: overline;
-  background-position: center;
-  margin: 50px;
-  margin-bottom: 15px;
-}
 
 a {
   text-decoration: none;
 }
 
-.parrafo1 {
-  color: $color-principal;
-  text-align: center;
-  font-size: $tamaño-fuente/7;
-  text-decoration: overline;
-  background-color: $color-secundario;
-}
 
-.titulo {
-  font-family: $tipo-de-fuente;
-  color: $color-principal;
-  font-size: $tamaño-fuente;
-  background-image: url(../multimedia/imagenes/banner\ quesos.jpg);
-}
 
-.titulo {
-  border-style: solid;
-  color: $color-principal;
-  background-position: center;
-}
 
 .sub_titulo {
   font-size: $tamaño-fuente/7;
@@ -74,43 +42,21 @@ a {
   background-color: $color-secundario;
 }
 
-.titulo_secciones {
-  font-size: $tamaño-fuente/5;
-  text-align: center;
-  color: $color-principal;
-  border-style: solid;
-  color: $color-principal;
-  width: 100%;
-  margin-left: 10px;
-  height: auto;
-}
 
 .navbarra:hover {
   color: gray;
   width: 90% auto;
 }
 
-h1 {
-  text-align: center;
-  color: $color-principal;
-}
+
 
 body {
   background-color: $color-secundario;
 }
 
-.img {
-  padding: $tamaño-padding;
-  margin-left: 70px;
-  height: $tamaño-heigth * 4;
-  width: $tamaño-width * 8;
-}
 
-.piedepag {
-  color: $color-principal;
-  padding: $tamaño-padding;
-  font-size: $tamaño-fuente/9;
-}
+
+
 
 .logopiedepag {
   padding: $tamaño-padding;
@@ -329,7 +275,7 @@ section.imagenes_vinos img {
 /* grid areas */
 #grilla {
   display: grid;
-  grid-template-areas: "nav nav " "header header" "productos productos" "footer footer";
+  grid-template-areas: "nav nav ""header header""productos productos""footer footer";
   grid-template-rows: 150px auto auto 300px;
   grid-template-columns: 1000px 500px;
 }
@@ -342,9 +288,7 @@ footer {
   grid-area: footer;
 }
 
-section#productos {
-  grid-area: productos;
-}
+
 
 nav {
   grid-area: nav;
@@ -354,47 +298,49 @@ nav {
 @media (min-width: 576px) and (max-width: 767.98px) {
   #grilla {
     display: grid;
-    grid-template-areas: "nav        nav   " "header     header " "productos  productos " "footer     footer ";
+    grid-template-areas: "nav        nav   ""header     header ""productos  productos ""footer     footer ";
     grid-template-rows: 150px 1fr auto 100px;
     grid-template-columns: 300px 300px;
   }
+
   header {
     grid-area: header;
   }
+
   footer {
     grid-area: footer;
   }
-  section#productos {
-    grid-area: productos;
-  }
+
+
   nav {
     grid-area: nav;
   }
 }
 
-section#productos.container-fluid.text-center {
+
+section#productos {
   grid-area: productos;
 
-  h3{
+  h3 {
     color: $color-secundario;
     font-family: $tipo-de-fuente;
 
-    &.titulo_secciones{
-        font-size: $tamaño-fuente/5;
-        text-align: center;
-        color: $color-principal;
-        border-style: solid;
-        width: 100%;
-        margin-left: 10px;
-        height: auto;
+    &.titulo_secciones {
+      font-size: $tamaño-fuente/5;
+      text-align: center;
+      color: $color-principal;
+      border-style: solid;
+      width: 100%;
+      margin-left: 10px;
+      height: auto;
     }
 
-}
+  }
 
 
 
 
-  img{
+  img {
     padding: $tamaño-padding;
     margin-left: 70px;
     height: $tamaño-heigth * 4;
@@ -403,45 +349,74 @@ section#productos.container-fluid.text-center {
 }
 
 header {
-    div.titulo {
-        font-family: $tipo-de-fuente;
-        color: $color-principal;
-        font-size: $tamaño-fuente;
-        background-image: url(../multimedia/imagenes/banner\ quesos.jpg);
+  div.titulo {
+    font-family: $tipo-de-fuente;
+    color: $color-principal;
+    font-size: $tamaño-fuente;
+    background-image: url(../multimedia/imagenes/banner\ quesos.jpg);
+    border-style: solid;
+    color: red;
+    background-position: center;
+
+    animation-name: bounce;
+    animation-duration: 3s;
+    animation-delay: 1s;
+  }
 
 
 
 
-        h1{
-            text-align: center;
-            color: $color-principal;
+  h1 {
+    text-align: center;
+    color: $color-principal;
 
-        }
+  }
 
-        h4{
-            color: $color-principal;
-            font-family: $tipo-de-fuente;
-            font-size: $tamaño-fuente/4;
-            text-align: center;
-            text-decoration: overline;
-            background-position: center;
-            margin: 50px;
-            margin-bottom: 15px;
-        }
+  h4 {
+    color: $color-principal;
+    font-family: $tipo-de-fuente;
+    font-size: $tamaño-fuente/4;
+    text-align: center;
+    text-decoration: overline;
+    background-position: center;
+    margin: 50px;
+    margin-bottom: 15px;
+  }
 
 
 
-        p.parrafo1 {
-            color: $color-principal;
-            text-align: center;
-            font-size: $tamaño-fuente/7;
-            text-decoration: overline;
-            background-color: $color-secundario;
-        }
-    }
+  p.parrafo1 {
+    color: $color-principal;
+    text-align: center;
+    font-size: $tamaño-fuente/7;
+    text-decoration: overline;
+    background-color: $color-secundario;
+  }
 }
 
-            
 
-                
-               
+
+
+
+
+footer {
+  section {
+    div.caja c1 {
+      nav#enlaces:internos_footer {
+        ul {
+          li {
+            a {
+              &.piedepag {
+                color: $color-principal;
+                padding: $tamaño-padding;
+                font-size: $tamaño-fuente/9;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+
+}

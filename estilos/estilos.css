@@ -19,45 +19,8 @@
   width: 100px;
 }
 
-h3 {
-  color: black;
-  font-family: "Orbitron", sans-serif;
-}
-
-h4 {
-  color: white;
-  font-family: "Orbitron", sans-serif;
-  font-size: 50px;
-  text-align: center;
-  text-decoration: overline;
-  background-position: center;
-  margin: 50px;
-  margin-bottom: 15px;
-}
-
 a {
   text-decoration: none;
-}
-
-.parrafo1 {
-  color: white;
-  text-align: center;
-  font-size: 28.5714285714px;
-  text-decoration: overline;
-  background-color: black;
-}
-
-.titulo {
-  font-family: "Orbitron", sans-serif;
-  color: white;
-  font-size: 200px;
-  background-image: url(../multimedia/imagenes/banner\ quesos.jpg);
-}
-
-.titulo {
-  border-style: solid;
-  color: white;
-  background-position: center;
 }
 
 .sub_titulo {
@@ -67,42 +30,13 @@ a {
   background-color: black;
 }
 
-.titulo_secciones {
-  font-size: 40px;
-  text-align: center;
-  color: white;
-  border-style: solid;
-  color: white;
-  width: 100%;
-  margin-left: 10px;
-  height: auto;
-}
-
 .navbarra:hover {
   color: gray;
   width: 90% auto;
 }
 
-h1 {
-  text-align: center;
-  color: white;
-}
-
 body {
   background-color: black;
-}
-
-.img {
-  padding: 10px;
-  margin-left: 70px;
-  height: 400px;
-  width: 800px;
-}
-
-.piedepag {
-  color: white;
-  padding: 10px;
-  font-size: 22.2222222222px;
 }
 
 .logopiedepag {
@@ -335,10 +269,6 @@ footer {
   grid-area: footer;
 }
 
-section#productos {
-  grid-area: productos;
-}
-
 nav {
   grid-area: nav;
 }
@@ -357,21 +287,18 @@ nav {
   footer {
     grid-area: footer;
   }
-  section#productos {
-    grid-area: productos;
-  }
   nav {
     grid-area: nav;
   }
 }
-
-
-section#productos.container-fluid.text-center {
+section#productos {
   grid-area: productos;
 }
-section#productos.container-fluid.text-center h3.titulo_secciones {
+section#productos h3 {
   color: black;
   font-family: "Orbitron", sans-serif;
+}
+section#productos h3.titulo_secciones {
   font-size: 40px;
   text-align: center;
   color: white;
@@ -380,11 +307,51 @@ section#productos.container-fluid.text-center h3.titulo_secciones {
   margin-left: 10px;
   height: auto;
 }
-section#productos.container-fluid.text-center img.img-fluid.d-block.mx-auto {
+section#productos img {
   padding: 10px;
   margin-left: 70px;
   height: 400px;
   width: 800px;
+}
+
+header div.titulo {
+  font-family: "Orbitron", sans-serif;
+  color: white;
+  font-size: 200px;
+  background-image: url(../multimedia/imagenes/banner\ quesos.jpg);
+  border-style: solid;
+  color: red;
+  background-position: center;
+  animation-name: bounce;
+  animation-duration: 3s;
+  animation-delay: 1s;
+}
+header h1 {
+  text-align: center;
+  color: white;
+}
+header h4 {
+  color: white;
+  font-family: "Orbitron", sans-serif;
+  font-size: 50px;
+  text-align: center;
+  text-decoration: overline;
+  background-position: center;
+  margin: 50px;
+  margin-bottom: 15px;
+}
+header p.parrafo1 {
+  color: white;
+  text-align: center;
+  font-size: 28.5714285714px;
+  text-decoration: overline;
+  background-color: black;
+}
+
+footer section div.caja c1 nav#enlaces:internos_footer ul li a.piedepag {
+  color: white;
+  padding: 10px;
+  font-size: 22.2222222222px;
 }
 
 /*# sourceMappingURL=estilos.css.map */
