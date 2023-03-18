@@ -1,41 +1,43 @@
 nav {
-   
+
 
     nav {
-        
+        background-image: url(../multimedia/imagenes/jirayu-koontholjinda-kOspnCw1yr4-unsplash.jpg);
+
         div {
-            background-image: url(../multimedia/imagenes/jirayu-koontholjinda-kOspnCw1yr4-unsplash.jpg);
-            
-            nav {
-                
-                div {
-                    
-                    a {
 
-                        img {
-                            // LOGO
-                            width: 100px;
-                            height: 100px;
-                            margin: 0%;
-                            padding: 0;
+            a {
 
-                        }
-                    }
+                img {
+                    // LOGO
+                    width: 100px;
+                    height: 100px;
+                    margin: 0%;
+                    padding: 0;
+
                 }
             }
 
-            div {
-                div {
-                    a {
-                        &.nav-link {
-                            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-                            font-size: 30px;
-                            color: red;
-                            background-color: black;
-                            border-radius: 10px;
-                            margin: 10px;
-                        }
-                    }
+            button {
+                &.navbar-toggler {
+
+                    background-color: lightgreen;
+
+                }
+            }
+        }
+    }
+
+    div {
+        div {
+            a {
+                &.nav-link {
+                    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                    font-size: 30px;
+                    color: red;
+                    background-color: black;
+                    border-radius: 10px;
+                    margin: 10px;
                 }
             }
         }

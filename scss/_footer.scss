@@ -31,18 +31,21 @@ footer {
 
 
                 &.c1 {
-                    
+
                     list-style: none;
                     order: 1;
                     margin: 0px;
                     padding: 0%;
-                    nav{
-                        ul{list-style: none;
-                            li{
+
+                    nav {
+                        ul {
+                            list-style: none;
+
+                            li {
                                 background-color: black;
-                                    border-radius: 10px;
-                                    margin: 2px;
-                                    padding: 0%;
+                                border-radius: 10px;
+                                margin: 2px;
+                                padding: 0%;
 
                             }
                         }
@@ -51,14 +54,14 @@ footer {
                 }
 
                 &.c2 {
-                   
+
                     order: 2;
                     margin: 5px;
                     width: 500px;
                     align-items: center;
-                        align-items: baseline;
-                    
-                    h1{
+                    align-items: baseline;
+
+                    h1 {
                         font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
                         color: red;
                         font-size: 30px;
@@ -70,13 +73,13 @@ footer {
 
 
                 &.c3 {
-                    
+
                     order: 3;
                     align-items: center;
                     flex-grow: 2;
-                    
-                    div{
-                        iframe{
+
+                    div {
+                        iframe {
                             width: 100%;
                             height: auto;
 

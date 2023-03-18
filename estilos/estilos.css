@@ -258,7 +258,7 @@ section.imagenes_vinos img {
   display: grid;
   grid-template-areas: "nav nav " "header header" "productos productos" "footer footer";
   grid-template-rows: 150px auto auto 300px;
-  grid-template-columns: 1000px 500px;
+  grid-template-columns: 500px 500px;
 }
 
 header {
@@ -277,7 +277,11 @@ nav {
 @media (min-width: 576px) and (max-width: 767.98px) {
   #grilla {
     display: grid;
-    grid-template-areas: "nav        nav   " "header     header " "productos  productos " "footer     footer ";
+    grid-template-areas:
+     "nav        nav   " 
+    "header     header " 
+    "productos  productos " 
+    "footer     footer ";
     grid-template-rows: 150px 1fr auto 100px;
     grid-template-columns: 300px 300px;
   }
@@ -289,6 +293,7 @@ nav {
   }
   nav {
     grid-area: nav;
+   
   }
 }
 section#productos {
