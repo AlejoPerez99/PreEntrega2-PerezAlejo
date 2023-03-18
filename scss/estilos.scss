@@ -58,7 +58,7 @@ body {
     "header "
     "productos "
     "footer ";
-  grid-template-rows: 100px auto auto 160px;
+  grid-template-rows: 130px auto auto 160px;
   grid-template-columns: auto;
 }
 
@@ -117,88 +117,7 @@ form {
   }
 }
 
-// /* mediaqueries */
-// @media (max-width: 990px) {
-//   #grilla {
-//     display: grid;
-//     grid-template-areas:
-//       "nav "
-//       "header "
-//       "productos "
-//       "footer ";
-//     grid-template-rows: 150px auto auto 160px;
-//     grid-template-columns: auto;
-//   }
 
-//   header {
-//     grid-area: header;
-//   }
-
-//   footer {
-//     grid-area: footer;
-//   }
-
-//   nav {
-//     grid-area: nav;
-//   }
-
-//   section {
-//     grid-area: productos;
-//   }
-
-//   section {
-//     div {
-//       h3 {
-//         @include h3;
-//       }
-
-//       img {
-//         &.img-fluid.d-block.mx-auto {
-//           width: auto;
-//           height: 500px;
-//         }
-//       }
-//     }
-//   }
-
-//   nav {
-//     nav {
-//       div {
-//         background-image: url(../multimedia/imagenes/jirayu-koontholjinda-kOspnCw1yr4-unsplash.jpg);
-
-//         nav {
-//           div {
-//             a {
-//               img {
-//                 // LOGO
-//                 width: 100px;
-//                 height: 100px;
-//                 margin: 0%;
-//                 padding: 0;
-//               }
-//             }
-//           }
-//         }
-
-//         div {
-//           div {
-//             a {
-//               &.nav-link {
-//                 font-family: "Gill Sans", "Gill Sans MT", Calibri,
-//                   "Trebuchet MS", sans-serif;
-//                 font-size: 5px;
-//                 color: red;
-//                 background-color: black;
-//                 border-radius: 10px;
-//                 margin: 0px;
-//               }
-//             }
-//           }
-//         }
-//       }
-//     }
-//   }
-// }
 
 h1 {
   text-align: center;

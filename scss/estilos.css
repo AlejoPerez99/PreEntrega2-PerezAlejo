@@ -126,7 +126,7 @@ body {
 #grilla {
   display: grid;
   grid-template-areas: "nav " "header " "productos " "footer ";
-  grid-template-rows: 100px auto auto 160px;
+  grid-template-rows: 130px auto auto 160px;
   grid-template-columns: auto;
 }
 
