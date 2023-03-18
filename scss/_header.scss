@@ -1,0 +1,17 @@
+header {
+    div{
+      &.titulo {
+      font-family: $tipo-de-fuente;
+      color: $color-principal;
+      font-size: $tamaño-fuente;
+      background-image: url(../multimedia/imagenes/banner\ quesos.jpg);
+      border-style: solid;
+      color: red;
+      background-position: center;
+  
+      animation-name: bounce;
+      animation-duration: 3s;
+      animation-delay: 1s;
+    }
+  }
+}  
